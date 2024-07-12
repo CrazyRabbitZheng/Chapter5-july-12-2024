@@ -10,7 +10,8 @@ public class CompoundInterest {
         System.out.printf("%s%20s","Year","Amount on deposit");
 
         for (int i = 1; i <= 10; i++) {
-            System.out.printf("%n%4d%20.2f%n",i, principal * Math.pow((1 + rate), i));
+            //add , when dealing with money
+            System.out.printf("%n%4d%,20.2f%n",i, principal * Math.pow((1 + rate), i));
         }
 
     }
