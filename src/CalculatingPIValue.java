@@ -2,6 +2,14 @@
  * This class calculates the value of PI.
  * It examines when pi gets to 3.14159
  * Meet the beauty of Math!
+ * The output below --
+ * <pre>
+ * 136117
+ * 136118
+ * 136119
+ * 136120
+ * Now PI is 3.141599999994786 after 136120 terms after the first 4/1
+ *     </pre>
  * @author--Zheng Wang
  */
 public class CalculatingPIValue {
