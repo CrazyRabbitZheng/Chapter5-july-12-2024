@@ -50,6 +50,8 @@ public class LetterGradesCalculator {
             System.out.printf("%n%d Students got 'C'", cGrade);
             System.out.printf("%n%d Students got 'D'", dGrade);
             System.out.printf("%n%d Students got 'F'", fGrade);
+        }else {
+            System.out.println("No grades were found");
         }
     }
 }
