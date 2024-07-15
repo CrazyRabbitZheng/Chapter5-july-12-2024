@@ -1,17 +1,18 @@
 /**
  * This class prints 4 triangles with *'s or other symbol
- * <p>
- *
- **
- ***
- ****
- *****
- ******
- *******
- ********
- *********
+ <pre>
+          *
+         **
+        ***
+       ****
+      *****
+     ******
+    *******
+   ********
+  *********
  **********
- *     </>
+
+ </>
  * @author--Zheng Wang
  */
 /*when you mess up with the values of i and j. list out the changing point of *'s
