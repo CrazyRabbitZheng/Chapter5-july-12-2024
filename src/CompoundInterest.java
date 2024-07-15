@@ -1,18 +1,19 @@
 /**
- * This class calculates the final amount of money after nth year of saving
+ * This class calculates the final amount of money after nth years of saving, up to 7 years
+ * Calculates the final money with a rate range from 5% to 10% (0.05, 0.06,...,0.10)
  * @author--Zheng Wang
  */
 public class CompoundInterest {
     public static void main(String[] args) {
         double principal = 1000;
-        double rate = 0.05;
 
-        System.out.printf("%s%20s","Year","Amount on deposit");
-
-        for (int i = 1; i <= 10; i++) {
-            //add , when dealing with money
-            System.out.printf("%n%4d%,20.2f%n",i, principal * Math.pow((1 + rate), i));
+        for (int rateCounter = 5; rateCounter <= 10; rateCounter++) {
+            for (int yearCounter = 1; yearCounter <= 7; yearCounter++) {
+                double saving = principal * Math.pow(1 + (double)rateCounter/100, yearCounter);
+                System.out.printf("%nWith a rate of %d%%, the %d th year's saving is %.2f", rateCounter, yearCounter, saving);
+            }
+            System.out.println();
+            System.out.println();
         }
-
     }
 }
