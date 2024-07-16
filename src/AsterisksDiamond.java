@@ -2,6 +2,7 @@
  * This class prints a diamond with asterisks
  * first print 4 litter triangles on the top
  * use @ instead of space for visibility.
+ * This is also "divide and conquer" -- divide something big into small pieces that you've already known.
  * <pre>
  * @@@@*@@@@
  * @@@***@@@
