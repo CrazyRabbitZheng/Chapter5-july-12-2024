@@ -29,7 +29,11 @@ public class AutoPolicy {
     }
 
     public void setState(String state) {
-        this.state = state;
+        if(state == "CT" || state == "MA" || state == "ME" || state == "NY" || state == "NJ" || state == "PA" || state == "VT"){
+            this.state = state;
+        }else{
+            System.out.println("Please enter a valid state in 2 letters abbreviations");
+        }
     }
 
     public String getState() {
