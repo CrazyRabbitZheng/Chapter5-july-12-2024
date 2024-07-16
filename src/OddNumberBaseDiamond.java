@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * this class takes user input (odd numbers from 3 to 19)
- * prints odd number based asterisks
+ * prints odd number based asterisk diamond
  * @author--Zheng Wang
  */
 public class OddNumberBaseDiamond {
