@@ -1,10 +1,10 @@
-import java.util.Scanner;
-
 /**
  * this class takes user input (odd numbers from 3 to 19)
  * prints odd number based asterisk diamond
  * @author--Zheng Wang
  */
+import java.util.Scanner;
+
 public class OddNumberBaseDiamond {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
