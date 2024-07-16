@@ -1,7 +1,7 @@
 /**
  * This class takes in user input of products and print the final sales
  * This code has flaw. didn't have data validation.
- * when type in "quit" in productName, didn't quit immediately. waited to enter the quantity to quit.
+ * ！！！！！！！！！！！！when type in "quit" in productName, didn't quit immediately. waited to enter the quantity to quit.
  */
 import java.util.Objects;
 import java.util.Scanner;
