@@ -1,7 +1,8 @@
 /**
  * This class takes in user input of products and print the final sales
  * This code has flaw. didn't have data validation.
- * ！！！！！！！！！！！！when type in "quit" in productName, didn't quit immediately. waited to enter the quantity to quit.
+ * (Solved)！！！！！！！！！when type in "quit" in productName, didn't quit immediately. waited to enter the quantity to quit.
+ * I added an if...continue to make the loop-continuation condition checked after the productName.
  */
 import java.util.Objects;
 import java.util.Scanner;
@@ -17,6 +18,9 @@ public class CalculatingSales {
         while(!Objects.equals(productName, "quit")){
             System.out.println("Enter product name: ");
             productName = input.next();
+            if(productName.equals("quit")){
+                continue;
+            }
             System.out.println("Enter product quantity: ");
             productQuantity = input.nextInt();
 
