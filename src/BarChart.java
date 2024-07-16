@@ -1,9 +1,10 @@
-import java.util.Scanner;
 
 /**
  * This class takes 5 number inputs from user. (1 to 30)
  * it prints that many *'s as bar for each number
  */
+import java.util.Scanner;
+
 public class BarChart {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

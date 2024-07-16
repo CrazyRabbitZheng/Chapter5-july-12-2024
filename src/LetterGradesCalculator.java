@@ -1,10 +1,11 @@
-import java.util.Scanner;
-
 /**
  * This class calculates students' grade in letters
  * and counts the average and numbers of students who get A,B,C,D and F
  * end of file indicator in IntelliJ is Ctrl + d
+ * @author--Zheng Wang
  */
+import java.util.Scanner;
+
 public class LetterGradesCalculator {
     public static void main(String[] args) {
         int total = 0;
